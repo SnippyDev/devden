@@ -55,3 +55,7 @@ If you're currently editing something and someone else might be too, please:
 ### Email/DM me for anything else!
 
 **[My Email](mailto:snippydev@gmail.com)**
+
+### Figma Designs
+
+**[DevDen Figma](https://www.figma.com/design/hfPnyD78kP2ugUvwRvPA2Z/DevDen?node-id=0-1&t=VlHJuflZCoWuYSF9-1)**
