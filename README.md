@@ -27,7 +27,7 @@ If you're currently editing something and someone else might be too, please:
 
 - Create a new branch for every feature or fix (e.g. `feature/login-form`, `fix/navbar-css`)
 - Always open a Pull Request (PR), even for your own code
-- Use `[WIP]` in the PR title if it's still being developed
+- Use `WIP` in the PR title if it's still being developed
 
 ### 4. Keep It Clear
 
