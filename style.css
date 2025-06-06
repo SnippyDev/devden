@@ -1,13 +1,17 @@
 :root {
   --bg-color: #ffffff;
   --text-color: #111111;
-  --menu-color: #f0f0f0;
+  --menu-color: #e5e5e5;
+  --accent-color: #64b5f6;
+  --link-color: #4a90e2;
 }
 
 [data-theme="dark"] {
   --bg-color: #111111;
-  --text-color: #ffffff;
+  --text-color: #e0e0e0;
   --menu-color: #222222;
+  --link-color: #64b5f6;
+  --accent-color: #4a90e2;
 }
 
 body {
@@ -170,4 +174,28 @@ input:checked + .slider:before {
     margin: 35px auto !important;
     padding: 0 20px !important;
     text-align: center !important;
+}
+
+.main button {
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border: 1px solid var(--menu-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.main button:hover {
+  background-color: var(--accent-color);
+  opacity: 0.9;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
