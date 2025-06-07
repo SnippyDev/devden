@@ -170,10 +170,10 @@ input:checked + .slider:before {
 
 .main {
     font-family: 'Inter', sans-serif;
-    max-width: 85% !important;
-    margin: 35px auto !important;
-    padding: 0 20px !important;
-    text-align: center !important;
+    max-width: 85%;
+    margin: 35px auto;
+    padding: 0 20px;
+    text-align: center;
 }
 
 .main button {
@@ -198,4 +198,20 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.catalog {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left !important;
+}
+
+.items a {
+  padding: 10px 20px;
+  color: var(--text-color);
+  border: 1px solid var(--menu-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 1s;
 }

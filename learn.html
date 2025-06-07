@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevDen - Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Inter:wght@100..900&family=Karla:wght@200..800&family=Rajdhani:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+  <header>
+    <h1 class="main-hero-title">DevDen</h1>
+    <nav>
+      <a href="index.html"><h2>Home</h2></a>
+      <a href="about.html"><h2>About</h2></a>
+      <a href="learn.html"><h2>Learn</h2></a>
+      <a href="community.html"><h2>Community</h2></a>
+    </nav>
+    </header>
+
+  <!-- Mobile menu button -->
+  <button id="menu-toggle">☰</button>
+
+  <!-- Collapsible side menu -->
+  <div id="side-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="learn.html">Learn</a>
+    <a href="community.html">Community</a>
+  </div>
+  <div class="main">
+      <h1>Wecome to DevDen Learn.</h1>
+      <p>Here, you can learn any language currently in the catalog! Choose one to begin.</p>
+      <hr>
+      <h2>Language Catalog</h2>
+      <p>Choose from 53 different languages!</p>
+      <div class="catalog">
+        <h2>Web Development:</h2>
+        <div class="items">
+          <a>HTML</a>
+          <a>CSS</a>
+          <a>JavaScript</a>
+          <a>TypeScript</a>
+          <a>React</a>
+          <a>Vue.js</a>
+          <a>Angular</a>
+          <a>Next.js</a>
+          <a>Svelte</a>
+          <a>WebAssembly</a>
+        </div>
+        <h2>Backend Development:</h2>
+        <div class="items">
+          <a>Python (Flask/Django)</a>
+          <a>Node.js (Express)</a>
+          <a>PHP (Laravel)</a>
+          <a>Java (Spring)</a>
+          <a>Ruby (Rails)</a>
+          <a>Go</a>
+          <a>Rust</a>
+          <a>C#</a>
+          <a>Kotlin</a>
+        </div>
+        <h2>Mobile Development:</h2>
+        <div class="items">
+          <a>Swift (iOS)</a>
+          <a>Kotlin (Android)</a>
+          <a>Flutter (Dart)</a>
+          <a>React Native</a>
+          <a>Ionic</a>
+          <a>Xamarin</a>
+        </div>
+        <h2>Data Science & AI:</h2>
+        <div class="items">
+          <a>Python (NumPy, Pandas, TensorFlow, PyTorch)</a>
+          <a>R</a>
+          <a>Julia</a>
+          <a>MATLAB</a>
+          <a>Scala</a>
+          <a>Lua</a>
+          <a>Octave</a>
+        </div>
+        <h2>Systems Programming:</h2>
+        <div class="items">
+          <a>C</a>
+          <a>C++</a>
+          <a>Rust</a>
+          <a>Go</a>
+          <a>Assembly</a>
+          <a>Zig</a>
+          <a>Nim</a>
+        </div>
+        <h2>Game Development:</h2>
+        <div class="items">
+          <a>C#</a>
+          <a>C++</a>
+          <a>Python</a>
+          <a>Lua</a>
+          <a>JavaScript</a>
+          <a>Godot (GDScript)</a>
+          <a>Unreal Engine (Blueprints)</a>
+        </div>
+        <h2>DevOps & Infrastructure:</h2>
+        <div class="items">
+          <a>Bash</a>
+          <a>PowerShell</a>
+          <a>Python</a>
+          <a>Ruby</a>
+          <a>Go</a>
+          <a>Terraform (HCL)</a>
+          <a>Ansible (YAML)</a>
+        </div>
+      </div>
+    </div>
+  <footer>
+    <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider round"></span>
+    </label>
+  </footer>
+  <script src="main.js" defer></script>
+</body>
+</html>
