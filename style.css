@@ -207,11 +207,33 @@ a:hover {
   text-align: left !important;
 }
 
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px !important;
+}
+
 .items a {
+  flex: 1 1 100%;
+  box-sizing: border-box;
   padding: 10px 20px;
   color: var(--text-color);
   border: 1px solid var(--menu-color);
   border-radius: 5px;
   cursor: pointer;
   transition-duration: 1s;
+}
+
+/* Optional: On larger screens, show items side-by-side */
+@media (min-width: 600px) {
+  .items a {
+    flex: 1 1 calc(50% - 10px);
+  }
+}
+
+@media (min-width: 900px) {
+  .items a {
+    flex: 1 1 calc(33.333% - 10px);
+  }
 }
