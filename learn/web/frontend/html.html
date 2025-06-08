@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DevDen - HTML</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com"/>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Inter:wght@100..900&family=Karla:wght@200..800&family=Rajdhani:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet"/>
-  <link href="../../../style.css" rel="stylesheet" type="text/css" media="all"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevDen - HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Inter:wght@100..900&family=Karla:wght@200..800&family=Rajdhani:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+    <link href="../../../style.css" rel="stylesheet" type="text/css" media="all" />
 </head>
+
 <body>
-  <header>
-    <h1 class="main-hero-title">DevDen</h1>
-    <nav>
-      <a href="../../../index.html"><h2>Home</h2></a>
-      <a href="../../../about.html"><h2>About</h2></a>
-      <a href="../../../learn.html"><h2>Learn</h2></a>
-      <a href="../../../community.html"><h2>Community</h2></a>
-    </nav>
+    <header>
+        <h1 class="main-hero-title">DevDen</h1>
+        <nav>
+            <a href="../../../index.html">
+                <h2>Home</h2>
+            </a>
+            <a href="../../../about.html">
+                <h2>About</h2>
+            </a>
+            <a href="../../../learn.html">
+                <h2>Learn</h2>
+            </a>
+            <a href="../../../community.html">
+                <h2>Community</h2>
+            </a>
+        </nav>
     </header>
 
-  <!-- Mobile menu button -->
-  <button id="menu-toggle">☰</button>
+    <!-- Mobile menu button -->
+    <button id="menu-toggle">☰</button>
 
-  <!-- Collapsible side menu -->
-  <div id="side-menu">
-    <a href="../../../index.html">Home</a>
-    <a href="../../../about.html">About</a>
-    <a href="../../../learn.html">Learn</a>
-    <a href="../../../community.html">Community</a>
-  </div>
-  <div class="main">
-    <section id="lesson1">
-  <h2>Lesson 1: What is HTML?</h2>
-  <ul>
-    <li>HTML stands for <strong>HyperText Markup Language</strong>.</li>
-    <li>It's the standard markup language for creating web pages.</li>
-    <li>HTML describes the structure of a webpage using elements (tags).</li>
-    <li>An HTML document has two main parts: <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code>.</li>
-  </ul>
-  <h3>Example:</h3>
-  <pre><code>&lt;!DOCTYPE html&gt;
+    <!-- Collapsible side menu -->
+    <div id="side-menu">
+        <a href="../../../index.html">Home</a>
+        <a href="../../../about.html">About</a>
+        <a href="../../../learn.html">Learn</a>
+        <a href="../../../community.html">Community</a>
+    </div>
+    <div class="learn-main">
+        <h1>DevDen Learn: HTML</h1>
+        <section id="lesson1">
+            <h2>Lesson 1: What is HTML?</h2>
+            <ul>
+                <li>HTML stands for <strong>HyperText Markup Language</strong>.</li>
+                <li>It's the standard markup language for creating web pages.</li>
+                <li>HTML describes the structure of a webpage using elements (tags).</li>
+                <li>An HTML document has two main parts: <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code>.</li>
+            </ul>
+            <h3>Example:</h3>
+            <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;My First Page&lt;/title&gt;
@@ -49,53 +60,53 @@
     &lt;h1&gt;Hello, World!&lt;/h1&gt;
   &lt;/body&gt;
 &lt;/html&gt;</code></pre>
-</section>
+        </section>
 
-<section id="lesson2">
-  <h2>Lesson 2: Basic Tags</h2>
-  <ul>
-    <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>: Headings</li>
-    <li><code>&lt;p&gt;</code>: Paragraph</li>
-    <li><code>&lt;br&gt;</code>: Line break</li>
-    <li><code>&lt;strong&gt;</code>: Bold</li>
-    <li><code>&lt;em&gt;</code>: Italic</li>
-  </ul>
-  <h3>Example:</h3>
-  <pre><code>&lt;h1&gt;Main Title&lt;/h1&gt;
+        <section id="lesson2">
+            <h2>Lesson 2: Basic Tags</h2>
+            <ul>
+                <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>: Headings</li>
+                <li><code>&lt;p&gt;</code>: Paragraph</li>
+                <li><code>&lt;br&gt;</code>: Line break</li>
+                <li><code>&lt;strong&gt;</code>: Bold</li>
+                <li><code>&lt;em&gt;</code>: Italic</li>
+            </ul>
+            <h3>Example:</h3>
+            <pre><code>&lt;h1&gt;Main Title&lt;/h1&gt;
 &lt;p&gt;This is a paragraph.&lt;/p&gt;
 &lt;strong&gt;Important text&lt;/strong&gt;
 &lt;em&gt;Emphasized text&lt;/em&gt;</code></pre>
-</section>
+        </section>
 
-<section id="lesson3">
-  <h2>Lesson 3: Links & Images</h2>
-  <ul>
-    <li><code>&lt;a href="URL"&gt;</code>: Hyperlink</li>
-    <li><code>&lt;img src="image.jpg" alt="description"&gt;</code>: Image</li>
-  </ul>
-  <h3>Example:</h3>
-  <pre><code>&lt;a href="https://www.google.com"&gt;Go to Google&lt;/a&gt;
+        <section id="lesson3">
+            <h2>Lesson 3: Links & Images</h2>
+            <ul>
+                <li><code>&lt;a href="URL"&gt;</code>: Hyperlink</li>
+                <li><code>&lt;img src="image.jpg" alt="description"&gt;</code>: Image</li>
+            </ul>
+            <h3>Example:</h3>
+            <pre><code>&lt;a href="https://www.google.com"&gt;Go to Google&lt;/a&gt;
 &lt;img src="cat.jpg" alt="A cute cat"&gt;</code></pre>
-</section>
+        </section>
 
-<section id="lesson4">
-  <h2>Lesson 4: Lists and Tables</h2>
-  <ul>
-    <li><code>&lt;ul&gt;</code>: Unordered list</li>
-    <li><code>&lt;ol&gt;</code>: Ordered list</li>
-    <li><code>&lt;li&gt;</code>: List item</li>
-    <li><code>&lt;table&gt;</code>: Table</li>
-    <li><code>&lt;tr&gt;</code>: Table row</li>
-    <li><code>&lt;td&gt;</code>: Table cell</li>
-    <li><code>&lt;th&gt;</code>: Table header</li>
-  </ul>
-  <h3>Example (List):</h3>
-  <pre><code>&lt;ul&gt;
+        <section id="lesson4">
+            <h2>Lesson 4: Lists and Tables</h2>
+            <ul>
+                <li><code>&lt;ul&gt;</code>: Unordered list</li>
+                <li><code>&lt;ol&gt;</code>: Ordered list</li>
+                <li><code>&lt;li&gt;</code>: List item</li>
+                <li><code>&lt;table&gt;</code>: Table</li>
+                <li><code>&lt;tr&gt;</code>: Table row</li>
+                <li><code>&lt;td&gt;</code>: Table cell</li>
+                <li><code>&lt;th&gt;</code>: Table header</li>
+            </ul>
+            <h3>Example (List):</h3>
+            <pre><code>&lt;ul&gt;
   &lt;li&gt;Apples&lt;/li&gt;
   &lt;li&gt;Oranges&lt;/li&gt;
 &lt;/ul&gt;</code></pre>
-  <h3>Example (Table):</h3>
-  <pre><code>&lt;table&gt;
+            <h3>Example (Table):</h3>
+            <pre><code>&lt;table&gt;
   &lt;tr&gt;
     &lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Age&lt;/th&gt;
   &lt;/tr&gt;
@@ -103,72 +114,72 @@
     &lt;td&gt;Alice&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;</code></pre>
-</section>
+        </section>
 
-<section id="lesson5">
-  <h2>Lesson 5: Forms</h2>
-  <ul>
-    <li><code>&lt;form&gt;</code>: Creates a form</li>
-    <li><code>&lt;input&gt;</code>: Input field</li>
-    <li><code>&lt;label&gt;</code>: Describes input</li>
-    <li><code>&lt;textarea&gt;</code>: Multiline input</li>
-    <li><code>&lt;button&gt;</code>: Button</li>
-    <li><code>&lt;select&gt;</code> + <code>&lt;option&gt;</code>: Dropdown</li>
-  </ul>
-  <h3>Example:</h3>
-  <pre><code>&lt;form&gt;
+        <section id="lesson5">
+            <h2>Lesson 5: Forms</h2>
+            <ul>
+                <li><code>&lt;form&gt;</code>: Creates a form</li>
+                <li><code>&lt;input&gt;</code>: Input field</li>
+                <li><code>&lt;label&gt;</code>: Describes input</li>
+                <li><code>&lt;textarea&gt;</code>: Multiline input</li>
+                <li><code>&lt;button&gt;</code>: Button</li>
+                <li><code>&lt;select&gt;</code> + <code>&lt;option&gt;</code>: Dropdown</li>
+            </ul>
+            <h3>Example:</h3>
+            <pre><code>&lt;form&gt;
   &lt;label for="name"&gt;Name:&lt;/label&gt;
   &lt;input type="text" id="name"&gt;
   &lt;textarea placeholder="Your message"&gt;&lt;/textarea&gt;
   &lt;button type="submit"&gt;Send&lt;/button&gt;
 &lt;/form&gt;</code></pre>
-</section>
+        </section>
 
-<section id="lesson6">
-  <h2>Lesson 6: Semantic HTML</h2>
-  <p>Semantic elements clearly describe their meaning both to the browser and the developer.</p>
-  <ul>
-    <li><code>&lt;header&gt;</code></li>
-    <li><code>&lt;footer&gt;</code></li>
-    <li><code>&lt;article&gt;</code></li>
-    <li><code>&lt;section&gt;</code></li>
-    <li><code>&lt;nav&gt;</code></li>
-    <li><code>&lt;main&gt;</code></li>
-    <li><code>&lt;aside&gt;</code></li>
-  </ul>
-  <h3>Example:</h3>
-  <pre><code>&lt;article&gt;
+        <section id="lesson6">
+            <h2>Lesson 6: Semantic HTML</h2>
+            <p>Semantic elements clearly describe their meaning both to the browser and the developer.</p>
+            <ul>
+                <li><code>&lt;header&gt;</code></li>
+                <li><code>&lt;footer&gt;</code></li>
+                <li><code>&lt;article&gt;</code></li>
+                <li><code>&lt;section&gt;</code></li>
+                <li><code>&lt;nav&gt;</code></li>
+                <li><code>&lt;main&gt;</code></li>
+                <li><code>&lt;aside&gt;</code></li>
+            </ul>
+            <h3>Example:</h3>
+            <pre><code>&lt;article&gt;
   &lt;h2&gt;Blog Post&lt;/h2&gt;
   &lt;p&gt;Content goes here...&lt;/p&gt;
 &lt;/article&gt;</code></pre>
-</section>
+        </section>
 
-<section id="lesson7">
-  <h2>Lesson 7: Multimedia & Embeds</h2>
-  <ul>
-    <li><code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code>: Embed media</li>
-    <li><code>&lt;iframe&gt;</code>: Embed external content (e.g., YouTube)</li>
-  </ul>
-  <h3>Example (Video):</h3>
-  <pre><code>&lt;video controls&gt;
+        <section id="lesson7">
+            <h2>Lesson 7: Multimedia & Embeds</h2>
+            <ul>
+                <li><code>&lt;video&gt;</code> and <code>&lt;audio&gt;</code>: Embed media</li>
+                <li><code>&lt;iframe&gt;</code>: Embed external content (e.g., YouTube)</li>
+            </ul>
+            <h3>Example (Video):</h3>
+            <pre><code>&lt;video controls&gt;
   &lt;source src="video.mp4" type="video/mp4"&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;</code></pre>
-  <h3>Example (YouTube Embed):</h3>
-  <pre><code>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
-</section>
+            <h3>Example (YouTube Embed):</h3>
+            <pre><code>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+        </section>
 
-<section id="lesson8">
-  <h2>Lesson 8: HTML5 & Best Practices</h2>
-  <ul>
-    <li>Use semantic tags for better structure and accessibility.</li>
-    <li>Always close your tags properly.</li>
-    <li>Use `alt` attributes on images for screen readers.</li>
-    <li>Validate your HTML with tools like W3C Validator.</li>
-    <li>Use indentation and comments for clean code.</li>
-  </ul>
-  <h3>Example (HTML5 Document):</h3>
-  <pre><code>&lt;!DOCTYPE html&gt;
+        <section id="lesson8">
+            <h2>Lesson 8: HTML5 & Best Practices</h2>
+            <ul>
+                <li>Use semantic tags for better structure and accessibility.</li>
+                <li>Always close your tags properly.</li>
+                <li>Use `alt` attributes on images for screen readers.</li>
+                <li>Validate your HTML with tools like W3C Validator.</li>
+                <li>Use indentation and comments for clean code.</li>
+            </ul>
+            <h3>Example (HTML5 Document):</h3>
+            <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
   &lt;head&gt;
     &lt;meta charset="UTF-8"&gt;
@@ -183,15 +194,16 @@
     &lt;footer&gt;&copy; 2025&lt;/footer&gt;
   &lt;/body&gt;
 &lt;/html&gt;</code></pre>
-</section>
+        </section>
 
-  </div>
-  <footer>
-    <label class="switch">
-        <input type="checkbox" id="theme-toggle">
-        <span class="slider round"></span>
-    </label>
-  </footer>
-  <script src="../../../main.js" defer></script>
+    </div>
+    <footer>
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider round"></span>
+        </label>
+    </footer>
+    <script src="../../../main.js" defer></script>
 </body>
+
 </html>

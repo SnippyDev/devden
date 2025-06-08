@@ -1,124 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DevDen - Home</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com"/>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Inter:wght@100..900&family=Karla:wght@200..800&family=Rajdhani:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet"/>
-  <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevDen - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Inter:wght@100..900&family=Karla:wght@200..800&family=Rajdhani:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
 </head>
+
 <body>
-  <header>
-    <h1 class="main-hero-title">DevDen</h1>
-    <nav>
-      <a href="index.html"><h2>Home</h2></a>
-      <a href="about.html"><h2>About</h2></a>
-      <a href="learn.html"><h2>Learn</h2></a>
-      <a href="community.html"><h2>Community</h2></a>
-    </nav>
+    <header>
+        <h1 class="main-hero-title">DevDen</h1>
+        <nav>
+            <a href="index.html">
+                <h2>Home</h2>
+            </a>
+            <a href="about.html">
+                <h2>About</h2>
+            </a>
+            <a href="learn.html">
+                <h2>Learn</h2>
+            </a>
+            <a href="community.html">
+                <h2>Community</h2>
+            </a>
+        </nav>
     </header>
 
-  <!-- Mobile menu button -->
-  <button id="menu-toggle">☰</button>
+    <!-- Mobile menu button -->
+    <button id="menu-toggle">☰</button>
 
-  <!-- Collapsible side menu -->
-  <div id="side-menu">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="learn.html">Learn</a>
-    <a href="community.html">Community</a>
-  </div>
-  <div class="main">
-      <h1>Wecome to DevDen Learn.</h1>
-      <p>Here, you can learn any language currently in the catalog! Choose one to begin.</p>
-      <hr>
-      <h2>Language Catalog</h2>
-      <p>Choose from 53 different languages!</p>
-      <div class="catalog">
-        <h2>Web Development:</h2>
-        <div class="items">
-          <a href="learn/web/frontend/html.html">HTML</a>
-          <a href="learn/web/frontend/css.html">CSS</a>
-          <a href="learn/web/frontend/javascript.html">JavaScript</a>
-          <a href="learn/web/frontend/typescript.html">TypeScript</a>
-          <a href="learn/web/frontend/react.html">React</a>
-          <a href="learn/web/frontend/vuejs.html">Vue.js</a>
-          <a href="learn/web/frontend/angular.html">Angular</a>
-          <a href="learn/web/frontend/nextjs.html">Next.js</a>
-          <a href="learn/web/frontend/svelte.html">Svelte</a>
-          <a href="learn/web/frontend/webassembly.html">WebAssembly</a>
-        </div>
-        <h2>Backend Development:</h2>
-        <div class="items">
-          <a href="learn/web/backend/python.html">Python (Flask/Django)</a>
-          <a href="learn/web/backend/nodejs.html">Node.js (Express)</a>
-          <a href="learn/web/backend/php.html">PHP (Laravel)</a>
-          <a href="learn/web/backend/java.html">Java (Spring)</a>
-          <a href="learn/web/backend/ruby.html">Ruby (Rails)</a>
-          <a href="learn/web/backend/go.html">Go</a>
-          <a href="learn/web/backend/rust.html">Rust</a>
-          <a href="learn/web/backend/csharp.html">C#</a>
-          <a href="learn/web/backend/kotlin.html">Kotlin</a>
-        </div>
-        <h2>Mobile Development:</h2>
-        <div class="items">
-          <a href="learn/mobile/swift.html">Swift (iOS)</a>
-          <a href="learn/mobile/kotlin.html">Kotlin (Android)</a>
-          <a href="learn/mobile/flutter.html">Flutter (Dart)</a>
-          <a href="learn/mobile/react-native.html">React Native</a>
-          <a href="learn/mobile/ionic.html">Ionic</a>
-          <a href="learn/mobile/xamarin.html">Xamarin</a>
-        </div>
-        <h2>Data Science & AI:</h2>
-        <div class="items">
-          <a href="learn/data-ai/python.html">Python (NumPy, Pandas, TensorFlow, PyTorch)</a>
-          <a href="learn/data-ai/r.html">R</a>
-          <a href="learn/data-ai/julia.html">Julia</a>
-          <a href="learn/data-ai/matlab.html">MATLAB</a>
-          <a href="learn/data-ai/scala.html">Scala</a>
-          <a href="learn/data-ai/lua.html">Lua</a>
-          <a href="learn/data-ai/octave.html">Octave</a>
-        </div>
-        <h2>Systems Programming:</h2>
-        <div class="items">
-          <a href="learn/systems/c.html">C</a>
-          <a href="learn/systems/cpp.html">C++</a>
-          <a href="learn/systems/rust.html">Rust</a>
-          <a href="learn/systems/go.html">Go</a>
-          <a href="learn/systems/assembly.html">Assembly</a>
-          <a href="learn/systems/zig.html">Zig</a>
-          <a href="learn/systems/nim.html">Nim</a>
-        </div>
-        <h2>Game Development:</h2>
-        <div class="items">
-          <a href="learn/game-dev/csharp.html">C#</a>
-          <a href="learn/game-dev/cpp.html">C++</a>
-          <a href="learn/game-dev/python.html">Python</a>
-          <a href="learn/game-dev/lua.html">Lua</a>
-          <a href="learn/game-dev/javascript.html">JavaScript</a>
-          <a href="learn/game-dev/godot.html">Godot (GDScript)</a>
-          <a href="learn/game-dev/unreal.html">Unreal Engine (Blueprints)</a>
-        </div>
-        <h2>DevOps & Infrastructure:</h2>
-        <div class="items">
-          <a href="learn/devops/bash.html">Bash</a>
-          <a href="learn/devops/powershell.html">PowerShell</a>
-          <a href="learn/devops/python.html">Python</a>
-          <a href="learn/devops/ruby.html">Ruby</a>
-          <a href="learn/devops/go.html">Go</a>
-          <a href="learn/devops/terraform.html">Terraform (HCL)</a>
-          <a href="learn/devops/ansible.html">Ansible (YAML)</a>
-        </div>
-      </div>
+    <!-- Collapsible side menu -->
+    <div id="side-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="learn.html">Learn</a>
+        <a href="community.html">Community</a>
     </div>
-  <footer>
-    <label class="switch">
-        <input type="checkbox" id="theme-toggle">
-        <span class="slider round"></span>
-    </label>
-  </footer>
-  <script src="main.js" defer></script>
+    <div class="main">
+        <h1>Wecome to DevDen Learn.</h1>
+        <p>Here, you can learn any language currently in the catalog! Choose one to begin.</p>
+        <hr>
+        <h2>Language Catalog</h2>
+        <p>Choose from 53 different languages!</p>
+        <div class="catalog">
+            <h2>Web Development:</h2>
+            <div class="items">
+                <a href="learn/web/frontend/html.html">HTML</a>
+                <a href="learn/web/frontend/css.html">CSS</a>
+                <a href="learn/web/frontend/javascript.html">JavaScript</a>
+                <a href="learn/web/frontend/typescript.html">TypeScript</a>
+                <a href="learn/web/frontend/react.html">React</a>
+                <a href="learn/web/frontend/vuejs.html">Vue.js</a>
+                <a href="learn/web/frontend/angular.html">Angular</a>
+                <a href="learn/web/frontend/nextjs.html">Next.js</a>
+                <a href="learn/web/frontend/svelte.html">Svelte</a>
+                <a href="learn/web/frontend/webassembly.html">WebAssembly</a>
+            </div>
+            <h2>Backend Development:</h2>
+            <div class="items">
+                <a href="learn/web/backend/python.html">Python (Flask/Django)</a>
+                <a href="learn/web/backend/nodejs.html">Node.js (Express)</a>
+                <a href="learn/web/backend/php.html">PHP (Laravel)</a>
+                <a href="learn/web/backend/java.html">Java (Spring)</a>
+                <a href="learn/web/backend/ruby.html">Ruby (Rails)</a>
+                <a href="learn/web/backend/go.html">Go</a>
+                <a href="learn/web/backend/rust.html">Rust</a>
+                <a href="learn/web/backend/csharp.html">C#</a>
+                <a href="learn/web/backend/kotlin.html">Kotlin</a>
+            </div>
+            <h2>Mobile Development:</h2>
+            <div class="items">
+                <a href="learn/mobile/swift.html">Swift (iOS)</a>
+                <a href="learn/mobile/kotlin.html">Kotlin (Android)</a>
+                <a href="learn/mobile/flutter.html">Flutter (Dart)</a>
+                <a href="learn/mobile/react-native.html">React Native</a>
+                <a href="learn/mobile/ionic.html">Ionic</a>
+                <a href="learn/mobile/xamarin.html">Xamarin</a>
+            </div>
+            <h2>Data Science & AI:</h2>
+            <div class="items">
+                <a href="learn/data-ai/python.html">Python (NumPy, Pandas, TensorFlow, PyTorch)</a>
+                <a href="learn/data-ai/r.html">R</a>
+                <a href="learn/data-ai/julia.html">Julia</a>
+                <a href="learn/data-ai/matlab.html">MATLAB</a>
+                <a href="learn/data-ai/scala.html">Scala</a>
+                <a href="learn/data-ai/lua.html">Lua</a>
+                <a href="learn/data-ai/octave.html">Octave</a>
+            </div>
+            <h2>Systems Programming:</h2>
+            <div class="items">
+                <a href="learn/systems/c.html">C</a>
+                <a href="learn/systems/cpp.html">C++</a>
+                <a href="learn/systems/rust.html">Rust</a>
+                <a href="learn/systems/go.html">Go</a>
+                <a href="learn/systems/assembly.html">Assembly</a>
+                <a href="learn/systems/zig.html">Zig</a>
+                <a href="learn/systems/nim.html">Nim</a>
+            </div>
+            <h2>Game Development:</h2>
+            <div class="items">
+                <a href="learn/game-dev/csharp.html">C#</a>
+                <a href="learn/game-dev/cpp.html">C++</a>
+                <a href="learn/game-dev/python.html">Python</a>
+                <a href="learn/game-dev/lua.html">Lua</a>
+                <a href="learn/game-dev/javascript.html">JavaScript</a>
+                <a href="learn/game-dev/godot.html">Godot (GDScript)</a>
+                <a href="learn/game-dev/unreal.html">Unreal Engine (Blueprints)</a>
+            </div>
+            <h2>DevOps & Infrastructure:</h2>
+            <div class="items">
+                <a href="learn/devops/bash.html">Bash</a>
+                <a href="learn/devops/powershell.html">PowerShell</a>
+                <a href="learn/devops/python.html">Python</a>
+                <a href="learn/devops/ruby.html">Ruby</a>
+                <a href="learn/devops/go.html">Go</a>
+                <a href="learn/devops/terraform.html">Terraform (HCL)</a>
+                <a href="learn/devops/ansible.html">Ansible (YAML)</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider round"></span>
+        </label>
+    </footer>
+    <script src="main.js" defer></script>
 </body>
+
 </html>
